@@ -9,7 +9,8 @@
   border: none;
   outline: none;
 }
-.logo-btn:hover {
+.logo-btn:hover,
+.logo-btn:focus {
   cursor: pointer;
 }
 .logo-icon {
