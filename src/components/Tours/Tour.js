@@ -24,8 +24,8 @@ const Tour = ({ tour }) => {
             {country}
           </h4>
           <div className={styles.details}>
-            <h6>{days} days</h6>
-            <h6>from ${price}</h6>
+            <h5>{days} days</h5>
+            <h5>from ${price}</h5>
           </div>
         </div>
       </div>
