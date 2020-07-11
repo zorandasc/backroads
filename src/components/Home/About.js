@@ -33,7 +33,7 @@ const About = () => {
           </div>
         </article>
         <article className={styles.aboutInfo}>
-          <h4>explore the difference</h4>
+          <h3>explore the difference</h3>
           <p>Lorem ipsum kfdofdr asjksnsoasoajsjaposjp soidnoadjhoad</p>
           <p>Lorem ipsum kfdofdr asjksnsoasoajsjaposjp soidnoadjhoad</p>
           <p>Lorem ipsum kfdofdr asjksnsoasoajsjaposjp soidnoadjhoad</p>
