@@ -1,7 +1,8 @@
 .banner {
   text-align: center;
   letter-spacing: var(--mainSpacing);
-  color: var(--mainWhite);
+  /*color: var(--mainWhite);*/
+  color: black;
 }
 .banner h1 {
   font-size: 3.3rem;
