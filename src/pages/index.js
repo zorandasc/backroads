@@ -12,21 +12,17 @@ import SEO from "../components/SEO"
 export default ({ data }) => (
   <Layout>
     <SEO title="Home" description="this is home description"></SEO>
-    {/*
-    <StyledHero
-      home="true"
-      img={data.defaultBcg.childImageSharp.fluid}
-    ></StyledHero>
-    */}
-    <Banner
-      title="continue exploring"
-      info=" Loren isp[om loren ipsum loren ipsum loren ipsum"
-    >
-      <AniLink fade to="/tours" className="btn-white">
-        explore tours
-      </AniLink>
-    </Banner>
 
+    <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
+      <Banner
+        title="continue exploring"
+        info=" Loren isp[om loren ipsum loren ipsum loren ipsum"
+      >
+        <AniLink fade to="/tours" className="btn-white">
+          explore tours
+        </AniLink>
+      </Banner>
+    </StyledHero>
     <About></About>
     <Services></Services>
     <FeaturedTours></FeaturedTours>
